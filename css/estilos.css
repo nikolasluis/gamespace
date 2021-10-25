@@ -1,0 +1,91 @@
+.botao{
+    font-family: 'Games', sans-serif;
+    border-radius: 10px;
+    font-size:25px;
+    text-align:center;
+    width: 150px;
+    height: 30px;
+    background-color:black;
+    color:white;
+    border:none;
+    transition:all 5s;
+
+}
+
+.botao span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.botao span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.botao:hover span {
+   padding-right: 25px;
+}
+  
+.botao:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+body{
+  background-color:black;
+}
+
+td{
+    color: White;
+}
+
+.titulo{
+    font-family: 'Games', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto_principal{
+    font-size: 25px;
+    font-family: Monaco;
+    top:50px;
+    bottom:50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+}
+
+.img_promocional{
+    border-radius: 10px;
+    width: 350px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.textos{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    top:50px;
+    bottom:50px;
+}
