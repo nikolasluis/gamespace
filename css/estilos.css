@@ -9,7 +9,7 @@
     color:white;
     border:none;
     transition:all 5s;
-    
+    left:1px;
 
 }
 
@@ -65,9 +65,18 @@ td{
     font-size:25px;
     color:white;
     text-align:center;
+}
+
+.texto2{
+    font-family:'Courier New', Courier, monospace;
+    font-size:18px;
+    color:white;
+    text-align:center;
     margin: top 10px;
     bottom: 10px;
+   
 }
+
 
 .botao_entrar{
     width:20px;
