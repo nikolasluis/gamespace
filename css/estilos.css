@@ -63,6 +63,7 @@ td{
     bottom:50px;
     margin-top: 50px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .footer {
@@ -79,6 +80,9 @@ td{
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 20px;
+    top:200px;
+
+   
 }
 
 .textos{
@@ -88,4 +92,14 @@ td{
     font-size: 50px;
     top:50px;
     bottom:50px;
+}
+
+.tab{
+    left:30px;
+    right:30px;
+    top:200px;
+    margin-left:40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
